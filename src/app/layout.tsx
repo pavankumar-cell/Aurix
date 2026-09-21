@@ -7,6 +7,7 @@ import Navbar from "@/app/Components/layout/navbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
+	metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://aurixai.tech"),
   title: "AURIX",
   description: "Technology Solutions for the Future",
 };
