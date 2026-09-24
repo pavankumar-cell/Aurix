@@ -1,13 +1,12 @@
 import Bottom from "../Components/features-components/bottom";
 import FeatureCards from "../Components/features-components/featurescards";
 import Hero from "../Components/features-components/hero";
-import { createPageMetadata } from "../seo";
 
-export const metadata = createPageMetadata(
-	"/features",
-	"Features - AURIX",
+export const metadata = {
+  title: "Features - AURIX",
+  description:
 	"Discover the cutting-edge features of AURIX, the AI-powered platform that revolutionizes your digital experience. Explore our advanced tools and capabilities designed to enhance productivity and creativity.",
-);
+};
 
 export default function FeaturesPage() {
 	return (
