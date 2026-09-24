@@ -6,10 +6,10 @@ import Navbar from "@/app/Components/layout/navbar";
 
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "AURIX",
-  description: "Technology Solutions for the Future",
-};
+// export const metadata: Metadata = {
+//   title: "AURIX",
+//   description: "Technology Solutions for the Future",
+// };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
